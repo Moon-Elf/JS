@@ -30,4 +30,24 @@ const myFunction = function () {
     console.log("Hello World");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++
+let myname = "umangmaurya"
+let anothername = myname
+anothername = "amansingh"
+// console.log(myname);
+// console.log(anothername);
+
+let userOne = {
+    email: "user@mail.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "user@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
