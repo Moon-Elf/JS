@@ -38,4 +38,36 @@ const myFunction = function() {
     console.log("Hello World");
 }
 
-console.log(typeof heros);
+// console.log(typeof heros);
+
+
+
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/* 
+    title       Stack (Primitive), Heap (Non-Primitive)
+*/
+
+let name = "Umang"
+let anotherName = name
+anotherName = "Aman"
+
+
+// console.log(name);
+// console.log(anotherName);
+
+let userOne = {
+    name: "Umang",
+    age: 21
+}
+
+let userTwo = userOne
+
+userTwo.name = "Aman"
+
+console.log(userOne);
+console.log(userTwo);
